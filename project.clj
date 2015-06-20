@@ -1,4 +1,4 @@
-(defproject solsort-hello-module "0.0.1-SNAPSHOT"
+(defproject com.solsort/hello-module "0.0.1-SNAPSHOT"
   :description "hello world module"
   :url "https://solsort.com"
 

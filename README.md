@@ -1,4 +1,7 @@
-[![Build Status](https://travis-ci.org/solsort/hello-module.svg?branch=master)](https://travis-ci.org/solsort/hello-module)
+[![Build Status](https://travis-ci.org/rasmuserik/hello-module.svg?branch=master)](https://travis-ci.org/rasmuserik/hello-module)
+[![Dependencies Status](http://jarkeeper.com/rasmuserik/hello-module/status.png)](http://jarkeeper.com/rasmuserik/hello-module)
+
+[![Clojars Project](http://clojars.org/solsort-hello-module/latest-version.svg)](http://clojars.org/solsort-hello-module)
 
 Getting to know how to write ClojureScript Modules
 

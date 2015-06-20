@@ -1,6 +1,6 @@
 (ns solsort.test.hello
   (:require
-    [solsort.hello :refer [hello]]
+    [solsort.hello-module :refer [hello]]
     [cljs.test :as test :refer-macros [deftest is run-tests testing]]))
 
 
