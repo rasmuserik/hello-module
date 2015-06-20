@@ -9,6 +9,7 @@
   :plugins [[lein-cljsbuild "1.0.6"]]
 
   :source-paths ["src"]
+  :test-paths ["test"]
   :cljsbuild 
   {:builds 
    [
