@@ -1,0 +1,12 @@
+language:
+  - clojure
+  - node_js
+lein: lein2
+node_js:
+  "0.10"
+install:
+  - npm install
+before_script:
+  - lein2 classpath
+script:
+  - lein2 cljsbuild test
