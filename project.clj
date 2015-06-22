@@ -11,11 +11,11 @@
   :source-paths ["src"]
   :test-paths ["test"]
   :cljsbuild 
-  {:builds 
-   [
-    {:id "test-node"
+  {:test-commands
+   {"node" ["node" "target/run-test.js"]}
+   :builds 
+   [{:id "test-node"
      :source-paths ["src" "test"]
-     :notify-command ["node" "target/run-test.js"]
      :compiler {
                 :output-to "target/run-test.js"
                 :output-dir "target/out-test"

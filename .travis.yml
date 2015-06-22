@@ -9,4 +9,5 @@ install:
 before_script:
   - lein2 classpath
 script:
+  - lein2 test solsort.hello-module
   - lein2 cljsbuild test

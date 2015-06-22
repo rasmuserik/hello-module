@@ -14,6 +14,6 @@ Tasks:
 - √try use module from other ClojureScript code
 - √publish to non-local maven repository, to be available for integration tests in other code using it
 - √feature-expressions
-- run clojure.test's, and not only cljs.test's
+- √run clojure.test's, and not only cljs.test's
 - try to use it from a pure clojure module
 - cljs.test unit testing in browser
