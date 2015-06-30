@@ -6,7 +6,10 @@
                  [org.clojure/clojurescript "0.0-3308"]
                  [org.clojure/core.async "0.1.346.0-17112a-alpha"]]
 
-  :plugins [[lein-cljsbuild "1.0.6"]]
+  :plugins [[lein-cljsbuild "1.0.6"]
+            [lein-kibit "0.1.2"] 
+            [lein-bikeshed "0.2.0"]
+            ]
 
   :source-paths ["src"]
   :test-paths ["test"]
